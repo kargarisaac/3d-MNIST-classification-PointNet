@@ -11,8 +11,6 @@ In this repository, we used the code they published in their <a href="https://gi
 
 Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. You may also need to install h5py.
 
-If you are using PyTorch, you can find a third-party pytorch implementation <a href="https://github.com/fxia22/pointnet.pytorch" target="_blank">here</a>.
-
 To install h5py for Python:
 ```bash
 sudo apt-get install libhdf5-dev
