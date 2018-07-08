@@ -9,7 +9,7 @@ In this repository, we used the code they published in their <a href="https://gi
 
 ### Installation
 
-Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. You may also need to install h5py.
+Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. I used python 3.5 with TensorFlow 1.5. You may also need to install h5py.
 
 To install h5py for Python:
 ```bash
