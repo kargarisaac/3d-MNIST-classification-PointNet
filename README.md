@@ -5,7 +5,7 @@ In this work I used Pointnet to classify 3d-mnist point clouds. You can find the
 
 Point cloud is an important type of geometric data structure. Due to its irregular format, most researchers transform such data to regular 3D voxel grids or collections of images. This, however, renders data unnecessarily voluminous and causes issues. In pointnet paper, they design a novel type of neural network that directly consumes point clouds, which well respects the permutation invariance of points in the input.  Their network, named PointNet, provides a unified architecture for applications ranging from object classification, part segmentation, to scene semantic parsing. Though simple, PointNet is highly efficient and effective.
 
-In this repository, we used the code they published in their <a href="https://github.com/charlesq34/pointnet" target="_blank">github</a> and did some changes to use it in our work and 3d mnist data for training a PointNet classification network on point clouds sampled from 3D shapes.
+In this repository, we used the code they published in their <a href="https://github.com/charlesq34/pointnet" target="_blank">github</a> and did some changes to use it in our work and 3d mnist data for training a PointNet classification network on point clouds.
 
 ### Installation
 
