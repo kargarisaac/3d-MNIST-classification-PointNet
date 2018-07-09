@@ -9,6 +9,7 @@ This, however, renders data unnecessarily voluminous and causes issues. In point
 
 In this repository, we used the code they published in their <a href="https://github.com/charlesq34/pointnet" target="_blank">github</a> and did some changes to use it in our work and 3d mnist data for training a PointNet classification network on point clouds.
 
+You can use vis_data.py file to visualize point cloud data. I used plotly library for this.
 ### Installation
 
 Install <a href="https://www.tensorflow.org/get_started/os_setup" target="_blank">TensorFlow</a>. I used python 3.5 with TensorFlow 1.5. You may also need to install h5py.
