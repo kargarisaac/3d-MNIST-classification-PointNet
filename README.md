@@ -1,9 +1,11 @@
-## 3D MNIST Classification Using PointNet (*Deep Learning on Point Sets for 3D Classification and Segmentation*)
+## 3D MNIST Classification Using PointNet, 2D-CNN, 3D-CNN, and some other ML methods
 
 ### Introduction
-In this work I used Pointnet to classify 3d-mnist point clouds. You can find the dataset <a href="https://www.kaggle.com/daavoo/3d-mnist" target="_blank">here</a>.
+In this work I used Pointnet, 2D-CNN, 3D-CNN, and some other ML methods to classify 3d-mnist point clouds. You can find the dataset <a href="https://www.kaggle.com/daavoo/3d-mnist" target="_blank">here</a>.
 
-Point cloud is an important type of geometric data structure. Due to its irregular format, most researchers transform such data to regular 3D voxel grids or collections of images. This, however, renders data unnecessarily voluminous and causes issues. In pointnet paper, they design a novel type of neural network that directly consumes point clouds, which well respects the permutation invariance of points in the input.  Their network, named PointNet, provides a unified architecture for applications ranging from object classification, part segmentation, to scene semantic parsing. Though simple, PointNet is highly efficient and effective.
+Point cloud is an important type of geometric data structure. Due to its irregular format, most researchers transform such data to regular 3D voxel grids or collections of images. You can ude 3D-CNN_classifier.ipynb for applying 3D-CNN on 3D-voxel grids.
+
+This, however, renders data unnecessarily voluminous and causes issues. In pointnet paper, they design a novel type of neural network that directly consumes point clouds, which well respects the permutation invariance of points in the input.  Their network, named PointNet, provides a unified architecture for applications ranging from object classification, part segmentation, to scene semantic parsing. Though simple, PointNet is highly efficient and effective.
 
 In this repository, we used the code they published in their <a href="https://github.com/charlesq34/pointnet" target="_blank">github</a> and did some changes to use it in our work and 3d mnist data for training a PointNet classification network on point clouds.
 
@@ -18,8 +20,10 @@ sudo pip install h5py
 ```
 
 ### Usage
-To train a model to classify point clouds sampled from 3D shapes use main_pointnet_3dmnist.ipynb file.
+To train a pointnet model to classify point clouds sampled from 3D shapes use main_pointnet_3dmnist.ipynb file.
 Put the 3d mnist data to data folder.
+
+You can also use other .ipynb's to use 2D-CNN, 3D-CNN, and some other ML methods for point cloud classification. 
 
 ### Selected Projects that Use PointNet
 
