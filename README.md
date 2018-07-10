@@ -3,7 +3,7 @@
 ### Introduction
 In this work I used Pointnet, 2D-CNN, 3D-CNN, and some other ML methods to classify 3d-mnist point clouds. You can find the dataset <a href="https://www.kaggle.com/daavoo/3d-mnist" target="_blank">here</a>.
 
-Point cloud is an important type of geometric data structure. Due to its irregular format, most researchers transform such data to regular 3D voxel grids or collections of images. You can uسe 3D-CNN_classifier.ipynb for applying 3D-CNN on 3D-voxel grids.
+Point cloud is an important type of geometric data structure. Due to its irregular format, most researchers transform such data to regular 3D voxel grids or collections of images. You can use 3D-CNN_classifier.ipynb for applying 3D-CNN on 3D-voxel grids.
 
 This, however, renders data unnecessarily voluminous and causes issues. In pointnet paper, they design a novel type of neural network that directly consumes point clouds, which well respects the permutation invariance of points in the input.  Their network, named PointNet, provides a unified architecture for applications ranging from object classification, part segmentation, to scene semantic parsing. Though simple, PointNet is highly efficient and effective.
 
